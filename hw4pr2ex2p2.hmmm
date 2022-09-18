@@ -1,0 +1,34 @@
+# CSCI 1550: HW 4, Problem 2, part 2
+# Filename: hw4pr2ex1.hmmm
+# Name: Peter Morales
+#
+# Exercise 2: Using pointers to pointers! 
+
+00 setn r1 17
+01 storen r1 50
+02 setn r1 25
+03 storen r1 51
+04 setn r14 50
+05 setn r15 51
+06 setn r10 100
+07 setn r11 101
+08 setn r1 50
+09 storer r1 r11
+10 setn r1 51
+11 storer r1 r10
+12 loadr r3 r10
+13 loadr r3 r3
+14 write r3
+15 loadr r3 r11
+16 loadr r3 r3
+17 write r3
+18 copy r13 r10
+19 copy r10 r11
+20 copy r11 r13
+21 loadr r3 r10
+22 loadr r3 r3
+23 write r3
+24 loadr r3 r11
+25 loadr r3 r3
+26 write r3
+27 halt

@@ -1,0 +1,29 @@
+# CSCI 1550: HW 4, Problem 2
+# Filename: hw4pr2ex1.hmmm
+# Name: Peter Morales
+#
+# Exercise 1: Smart Swap
+
+00 setn r1 17
+01 storen r1 50
+02 setn r1 25
+03 storen r1 51
+04 setn r14 50
+05 setn r15 51
+06 loadr r3 r14
+07 write r3
+08 loadr r3 r15
+09 write r3
+10 copy r13 r14
+11 copy r14 r15
+12 copy r15 r13
+13 loadr r3 r14
+14 write r3
+15 loadr r3 r15
+16 write r3
+17 halt
+
+#   1. two
+#   2. two
+#   3. they are less steps to do the same thing
+#   4. it saves time by being able to point and reference rather then copy the entire data into a seperate location.

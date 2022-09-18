@@ -1,0 +1,8 @@
+
+    The article places emphasis on how indirection can help make code more extensible, easier to maintain, more evolvable, etc ... What design strategies introduced in the curriculum of CSCI1550 already attempt to address some of these issues of code "quality?"  How/why do they achieve these objects?  Explain.
+
+When looking at the linked wiki page on indirection it gives an example of pointers which we've talked about when coding with HMMM. The ability to push things to a stack and then call them back in reverse order is an easier way to maintain a "list" of numbers rather than assigning them to individual memory locations manually. Another example is when using our pseudo code Coral, the idea of abstraction and the use of functions is a way extend the use of designed functions beyond a specific purpose. This also helps organize the structure overall.
+
+    In the greater context of society ... are there any examples of organizational structures that serve to decouple societal systems/subsystems ... therein supplying a "wrapper" to make it easier to interface with those systems?
+
+In the greater context of society, departments that are specialized in a task act as experts to translate the complications of a complex system to the everyday person.
